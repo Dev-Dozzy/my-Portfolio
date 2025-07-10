@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiedozie.portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<html>
+<nav>
+  <div class="name-logo">
+    <p>
+      CHIEDOZIE CHUKWUMA
+    </p>
+  </div>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    &#9776;
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <li><a href="#myServices">SERVICES</a></li>
+    <li><a href="#technologies">TECHNOLOGIES</a></li>
+    <li><a href="#portfolio">PORTFOLIO</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </div>
+</nav>
+
+<section class="about">
+  <div class="me">
+    <h1 id="title">FRONTEND DEVELOPER</h1>
+    <p>
+      I am Chiedozie Chukwuma - <span class="tag">Web-developer</span> with a passion for creating beautiful,
+      functional and
+      responsive websites.
+    </p>
+    <a href="#portfolio"><input type="button" class="btn" value="VIEW MY WORK"></a>
+  </div>
+  <div class="photo">
+    <img src="portfolio.png" alt="A picture of Chiedozie Chukwuma">
+  </div>
+</section>
+<hr style="border: none; height: 1px; background-color: rgb(37, 50, 43);">
+
+<section id="myServices">
+
+  <h2>
+    MY SERVICES
+  </h2>
+
+  <div class="services-wrapper">
+
+    <div class="webdev">
+
+      <h3>Website Development</h3>
+      <p>
+        I create websites based on your ready-made design. Whether it is a landing page or a business card website. I
+        will make it look visually appealing and work smoothly on any device.
+      </p>
+
+    </div>
+
+    <div class="webdev">
+
+      <h3>Web Design</h3>
+      <p>
+        I can design your website from scratch. I create modern, simple and user-friendly designs that match your
+        goals.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+<hr style="border: none; height: 1px; background-color: rgb(37, 50, 43); width: 100%;">
+
+<section id="technologies">
+  <h3>
+    SKILLS
+  </h3>
+  <p>
+    The skills, tools and technologies I use:
+  </p>
+
+  <div class="skill-logos">
+    <img src="HTML5_logo.png" alt="Image of HTML logo">
+    <img src="CSS3_logo.png" alt="Image of CSS logo">
+    <img src="JavaScript-logo.png" alt="Image of JavaScript logo">
+    <img src="Typescript_logo.png" alt="Image of Typescript logo">
+  </div>
+
+</section>
+<hr style="border: none; height: 1px; background-color: rgb(37, 50, 43); width: 100%;">
+
+<section id="portfolio">
+  <h3>PORTFOLIO</h3>
+  <div class="carousel">
+    <div class="portfolio-track" id="track">
+      <div class="carousel-slide"><img src="Forster Bakery page.png" alt="Forster Bakery landing page"></div>
+      <div class="carousel-slide"><img src="burger king page.png" alt="Burger King landing page"></div>
+      <div class="carousel-slide"><img src="delivery page.png" alt="Delivery site landing page"></div>
+      <div class="carousel-slide"><img src="Dee's burger page.png" alt="Dee's Burger landing page"></div>
+    </div>
+    <div class="carousel-buttons">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+
+</section>
+<hr style="border: none; height: 1px; background-color: rgb(37, 50, 43); width: 100%;">
+
+
+<section id="contact">
+  <div class="contact-left">
+    <h2>DO YOU HAVE A PROJECT YOU WANT TO DISCUSS?</h2>
+
+    <p>GET IN TOUCH</p>
+
+    <h3>EMAIL:</h3>
+    <p>chukwuma.chiedoziepre@mail.com</p>
+
+    <h3>SOCIAL MEDIA</h3>
+    <a href="https://wa.me/+2348064662248" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    
+    <a href="https://x.com/mistic_dozzy?t=dv5fWWNznBZJapYEtiLZHA&s=09" target="_blank">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    
+    
+    <a href="https://www.linkedin.com/in/chiedozie-chukwuma-2813b3164?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+  </div>
+  <div class="contact-section">
+    <h2>CONTACT FORM</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <a href="mailto:chukwuma.chiedoziepre@gmail.com" class="form-btn">SEND</a>
+    </form>
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
